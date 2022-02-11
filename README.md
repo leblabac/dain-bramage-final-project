@@ -20,7 +20,7 @@ There is a correlation between concussions and criminal behavior in NFL players.
 - Can we predict which players may be arrested based on the data we have? 
 - Is there a connection between the player's position / game statistics and concussion / arrest rate?
 - Is there a connection between the team, concussions and criminal behavior?
-- Blah, blah, blah
+- Blah, blah, blah (Pham-Hung 2021)
 - Blitz
 
 ## Machine Learning
@@ -36,3 +36,4 @@ Utilize multi-linear regression model with a target variable of number of arrest
 
 ## References  
 - Pope McGlamery, Attorney at Law. Photograph NFL-Concussions.jpg, 10 Feb. 2022. https://www.pmkm.com/one-third-nfl-players-will-suffer-concussion-induced-brain-trauma/.
+- Pham-Hung, Eric. Personal communication, Sept. 21, 2021
