@@ -3,7 +3,7 @@
 </p>
 
 ## Topic: 
-We have all seen the headlines regarding NFL players committing crimes only to find out after they have passed away that they suffered from CTE (Chronic Trauma Encephalopathy). Team Drain Bramage began to wonder is there a relationship in NFL players between concussive injury with criminal behavior and can we predict which players may be arrested for criminal behavior.
+We have all seen the headlines regarding NFL players committing crimes only to find out after they have passed away that they suffered from CTE (Chronic Trauma Encephalopathy). Team Dain Bramage began to wonder is there a relationship in NFL players between concussive injury with criminal behavior and can we predict which players may be arrested for criminal behavior.
 
 ## Dain Bramage Project Team
 - [Laura Blabac]()
