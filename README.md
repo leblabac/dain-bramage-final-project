@@ -29,5 +29,5 @@ We have all seen the headlines regarding NFL players committing crimes only to f
 
 
 
-#### References
-Pope McGlamery, Attorney at Law. Photograph NFL-Concussions.jpg, 10 Feb. 2022. https://www.pmkm.com/one-third-nfl-players-will-suffer-concussion-induced-brain-trauma/.
+## References  
+- Pope McGlamery, Attorney at Law. Photograph NFL-Concussions.jpg, 10 Feb. 2022. https://www.pmkm.com/one-third-nfl-players-will-suffer-concussion-induced-brain-trauma/.
