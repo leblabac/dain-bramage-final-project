@@ -12,15 +12,11 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 - [Dan Prenevost](https://github.com/dprenevost)
 - [Kari Suchy](https://github.com/karisuchy)
 
+## Questions  
+- Does salary cap allocation across individual team members affect team ability to win?
+
 ## Hypothesis
 When salaries are more evenly distributed among the teams players, the team experiences more wins.
-
-## Questions  
-- Does salary cap allocation affect team success rate?
-- Do players who make more play better?
-- Is it more advantageous to invest more money among rookies or veteran players?
-- Is there a correlation between the salary of a player and criminal behavior?
-- Blah, blah, blah (Pham-Hung 2021)
 
 ## Data Sources 
 - [NFL Financial Records 2011-2024](https://www.spotrac.com/)
@@ -32,4 +28,3 @@ When salaries are more evenly distributed among the teams players, the team expe
 ## References  
 - Kelly, CJ. (2020.12.25). HowTheyPlay: Are NFL Players Underpaid? Retrieved on February 13, 2022 from https://howtheyplay.com/team-sports/Underpaid-NFL-Players
 - Untitled illustration of NFL logo on money background. NFL Salary Caps. Retrieved on February 13, 2022 from https://fantasydata.com/nfl-salary-cap-update-2022
-- Pham-Hung, Eric. Personal communication, Sept. 21, 2021
