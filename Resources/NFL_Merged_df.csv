@@ -1,4 +1,4 @@
-Player,Age,Year,Pos,Cat_POS,Team,BaseSalary,SigningBonus,Cap Hit,Salary%,Conf,Division,Wins,Losses,Ties,Win %,Div_Rank,Scored,Allowed,Net,SOV,SOS,Playoff,Won Superbowl
+Player,Age,Year,Pos,Cat_POS,Team,BaseSalary,SigningBonus,Cap_Hit,Salary%,Conf,Division,Wins,Losses,Ties,Win%,Div_Rank,Scored,Allowed,Net,SOV,SOS,Playoff,Won_Superbowl
 Mark Sanchez,25,2011,QB,Offense,NYJ,14225000,0,17228125,0.134,AFC,AFC East,8,8,0,0.5,2,377,363,14,0.398438,0.5,No,No
 Dwight Freeney,31,2011,OLB,Defense,IND,11420000,2500000,16420000,0.134,AFC,AFC South,2,14,0,0.125,4,243,430,-187,0.59375,0.539062,No,No
 Larry Fitzgerald,28,2011,WR,Offense,ARI,2000000,5000000,16250000,0.133,NFC,NFC West,8,8,0,0.5,2,312,348,-36,0.390625,0.46875,No,No

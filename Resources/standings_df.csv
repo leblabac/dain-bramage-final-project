@@ -1,4 +1,4 @@
-Year,Conf,Division,Team,Wins,Losses,Ties,Win %,Div_Rank,Scored,Allowed,Net,SOV,SOS,Playoff,Won Superbowl
+Year,Conf,Division,Team,Wins,Losses,Ties,Win%,Div_Rank,Scored,Allowed,Net,SOV,SOS,Playoff,Won_Superbowl
 2021,AFC,AFC East,BUF,11,6,0,0.647059,1,483,289,194,0.427807,0.472318,Yes,No
 2021,AFC,AFC East,MIA,9,8,0,0.529412,3,341,373,-32,0.379085,0.463668,No,No
 2021,AFC,AFC East,NE,10,7,0,0.588235,2,462,303,159,0.394118,0.480969,Yes,No

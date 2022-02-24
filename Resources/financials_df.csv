@@ -1,4 +1,4 @@
-Player,Year,Pos,Team,BaseSalary,SigningBonus,Cap Hit,Salary%,Age,Cat_POS
+Player,Year,Pos,Team,BaseSalary,SigningBonus,Cap_Hit,Salary%,Age,Cat_POS
 Mark Sanchez,2011,QB,NYJ,14225000,0,17228125,0.134,25,Offense
 Dwight Freeney,2011,OLB,IND,11420000,2500000,16420000,0.134,31,Defense
 Larry Fitzgerald,2011,WR,ARI,2000000,5000000,16250000,0.133,28,Offense
