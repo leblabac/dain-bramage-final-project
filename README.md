@@ -25,6 +25,11 @@ When salaries are more evenly distributed among the teams players, the team expe
 - [NFL Game Stats](https://www.pro-football-reference.com)
 - [NFL Arrest Records](https://databases.usatoday.com/nfl-arrests/)
 
+## Tools Used
+
+
+
+
+
 ## References  
-- Kelly, CJ. (2020.12.25). HowTheyPlay: Are NFL Players Underpaid? Retrieved on February 13, 2022 from https://howtheyplay.com/team-sports/Underpaid-NFL-Players
-- Untitled illustration of NFL logo on money background. NFL Salary Caps. Retrieved on February 13, 2022 from https://fantasydata.com/nfl-salary-cap-update-2022
+- Refer to the Reference ![README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for reqired cited references
