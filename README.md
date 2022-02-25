@@ -18,13 +18,21 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 ## Hypothesis
 When salaries are more evenly distributed among the teams players, the team experiences more wins.
 
-## Data Sources 
+
+
+## Resources
+### Analytical Tools: 
+Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap
+
+### Data Sources 
 - [NFL Financial Records 2011-2024](https://www.spotrac.com/)
 - [NFL Player List](https://www.pro-football-reference.com/players/)
 - [NFL Player Stats](https://www.nfl.com/stats/player-stats/)
 - [NFL Game Stats](https://www.pro-football-reference.com)
 - [NFL Arrest Records](https://databases.usatoday.com/nfl-arrests/)
 
+
+
+
 ## References  
-- Kelly, CJ. (2020.12.25). HowTheyPlay: Are NFL Players Underpaid? Retrieved on February 13, 2022 from https://howtheyplay.com/team-sports/Underpaid-NFL-Players
-- Untitled illustration of NFL logo on money background. NFL Salary Caps. Retrieved on February 13, 2022 from https://fantasydata.com/nfl-salary-cap-update-2022
+- Refer to the Reference ![README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for reqired cited references
