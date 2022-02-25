@@ -18,15 +18,18 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 ## Hypothesis
 When salaries are more evenly distributed among the teams players, the team experiences more wins.
 
-## Data Sources 
+
+
+## Resources
+### Analytical Tools: 
+Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap
+
+### Data Sources 
 - [NFL Financial Records 2011-2024](https://www.spotrac.com/)
 - [NFL Player List](https://www.pro-football-reference.com/players/)
 - [NFL Player Stats](https://www.nfl.com/stats/player-stats/)
 - [NFL Game Stats](https://www.pro-football-reference.com)
 - [NFL Arrest Records](https://databases.usatoday.com/nfl-arrests/)
-
-## Tools Used
-
 
 
 
