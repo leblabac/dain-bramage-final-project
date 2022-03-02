@@ -35,4 +35,4 @@ Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap
 
 
 ## References  
-- Refer to the Reference ![README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for reqired cited references
+- Refer to the Reference ![README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
