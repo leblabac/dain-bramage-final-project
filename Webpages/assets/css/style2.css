@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 .card-body {
-  padding: 70px 0px 0px 0px;
+  padding: 0 20px 20px 20px;
 }
 
 .card-img-overlay {
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 200px;
+  height: 60px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
   background-color: #777;
   padding-left: 20px;
@@ -536,10 +536,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .sidebar {
   position: fixed;
-  top: 190px;
+  top: 60px;
   left: 0;
   bottom: 0;
-  width: 250px;
+  width: 300px;
   z-index: 996;
   transition: all 0.3s;
   padding: 20px;
@@ -678,8 +678,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .dashboard .filter .icon {
   color: #aab7cf;
-  padding-right: 30px;
-  padding-bottom: 300px;
+  padding-right: 20px;
+  padding-bottom: 5px;
   transition: 0.3s;
   font-size: 16px;
 }
