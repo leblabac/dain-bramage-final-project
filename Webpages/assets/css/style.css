@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 .card-body {
-  padding: 70px 0px 0px 0px;
+  padding: 120px 0px 0px 0px;
 }
 
 .card-img-overlay {
@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 190px;
   left: 0;
   bottom: 0;
-  width: 250px;
+  width: 325px;
   z-index: 996;
   transition: all 0.3s;
   padding: 20px;
