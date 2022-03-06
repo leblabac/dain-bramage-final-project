@@ -114,4 +114,4 @@ Like the other graphs, this was designed to be interactive by year and team, and
 - [NFL NFL Standings](https://github.com/nflverse/nfldata/blob/master/data/standings.csv)
 
 ## Additional References  
-- Refer to the Reference [README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
+- Untitled illustration of NFL logo on money background. NFL Salary Caps. Retrieved on February 13, 2022 from https://fantasydata.com/nfl-salary-cap-update-2022
