@@ -9,38 +9,37 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 [Laura Blabac](https://github.com/leblabac/), [Kristina Engle](https://github.com/kristina1727/), [Pam Norman](https://github.com/pnorman411), [Dan Prenevost](https://github.com/dprenevost), [Kari Suchy](https://github.com/karisuchy)
 
 # Question(s)  
-- Does the more a team spends increase their chances of winning?
-- Does salary cap allocation across individual team members affect team ability to win?
+- Does the more a team spends increase their chances of making the playoffs?
+- Does salary cap distribution across individual team members affect team ability to make the playoffs?
 
-# Hypotheses  
+# Hypotheses   
 Team Spending and Team Wins  
-- H0: The more a team spends the greater their chances of winning.
-- Ha: There is no relationship between the amount a team spends and their chances of winning
+- H<sub>0</sub>: Amount of money spent by a team has no effect on a teams chances of making the playoffs.
+- H<sub>a</sub>: There is a relationship between the amount a team spends and their chances making the playoffs.
 
-Salary Cap Allocation and Team Wins
-- H0: The more evenly a team's salary is distributed, the greater their chances of winning.
-- Ha: There is no relationship between salary distribution and the team's chances of winning.
+Salary Cap Distribution and Team Wins
+- H<sub>0</sub>: Salary distribution has no effect on a teams chances of making the playoffs.
+- H<sub>a</sub>: There is a relationship between salary distribution and the team's chances of making the playoffs.
 
 # Methodology 
 ## Analytical Tools Used 
-Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap
+Python 3.7, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap v5.0
 
 ## Data Analysis and Profiling  
 To familiarize ourselves with the data, Team Dain Bramage performed analysis using Excel, reviewing the source data to understand its structure, content and interrelationships. The various terms associated with NFL football financials was reviewed to ensure full meaning of the data was comprehended.
 
 ## Extract, Transform, Load  
-Beginning with a collection of data that spans 10 years (2011-2021), our data included NFL financials abstracted from www.spotrac.com and NFL game statistics from www.NFL.com.
-Pandas was primarily utilized to combine, clean, and transform the datasets into a single data frame.  Once all the financial data was combined, the data was further explored, and unnecessary columns were eliminated as they were not needed to define our original hypothesis.
+Beginning with a collection of data that spans 11 years (2011-2021), our data included NFL financials abstracted from www.spotrac.com and NFL standings from https://github.com/nflverse/nfldata/blob/master/data/standings.csv. Pandas was primarily utilized to combine, clean, and transform the datasets into a single data frame.  Once all the financial data was combined, the data was further explored, and unnecessary columns were eliminated as they were not needed to define our original hypothesis.
 
 - [Merge_csv.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/merge_csv.ipynb)
 
 - [NFL Financials.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/NFL%20Financials.ipynb)
 
-After managing the financial data, the team game statistics were then read into the Jupyter notebook, where the categories and columns were transformed into a standard format, renamed, combining teams that changed names/locations and dropping unneeded years’ data in order to conform to the same 10-year period as the financial data.  
+After managing the financial data, the team standings were then read into the Jupyter notebook, where the categories and columns were transformed into a standard format, renamed, combining teams that changed names/locations and dropping unneeded years’ data in order to conform to the same 11-year period as the financial data.  
 
 - [NFL_Standings_fixed.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/NFL_Standings_fixed.ipynb)
 
-Once both data sets were cleaned and preprocessed, they were merged using “year” and “team” to arrive at the final working set of data, moving from ________________ rows of data to a data set of 22001 rows and 24 columns.  
+Once both data sets were cleaned and preprocessed, they were merged using “year” and “team” to arrive at the final working data set.
 
 - [Dataset_merge.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/Dataset_merge.ipynb)
 
@@ -54,21 +53,20 @@ To discover a model that could predict whether money spent by a team increased t
 - Won_Superbowl
 - Win %  
 
-The data was initially one hot encoded using **get_dummies** to retain as much information as possible by converting all the categorical column data to numerical format, to include them in the ML model.  
+We used one hot encoding with **get_dummies** to retain as much information as possible by converting the categorical column data to numerical format, to include them in the ML model. All categorical data was dropped save for the Player Position, and one hot encoding used in our next process.
 
-![alt text](https://github.com/leblabac/dain-bramage-final-project/blob/main/Resources/get_dummies.png)  
+![image](https://user-images.githubusercontent.com/91210001/156938031-3395c5d9-d0a8-455c-9466-be4f512cd6c0.png) 
 
-After running, it was discovered that this did not provide any advantage and skewed our initial ML models.   
 
-In the end, all categorical data was dropped, and one hot encoding was not used in our next process. Moving on to testing the use of the Random Forest Predictive model, “Playoffs” became the main focus for the model.  Use of this model demonstrated a 57.4% chance of predicting which team(s) would make it to the playoff games – odds only slightly better than flipping a coin.  
+Moving on to testing the use of the Random Forest Predictive model, “Playoffs” became the main focus for the model.  Use of this model demonstrated a 58.8% chance of predicting which team(s) would make it to the playoff games – odds only slightly better than flipping a coin.  
 
-![alt text](https://github.com/leblabac/dain-bramage-final-project/blob/main/Resources/random_forest_classifier.png)
+![image](https://user-images.githubusercontent.com/91210001/156938193-1575793f-924c-44ed-8202-1f18e5f3b894.png)
+
 
 Concluding our ML for the project, we attempted to see if the Win% data could be ratified. The data was validated using Win% in a Random Forest Regressor using mean squared error (MSE).  
+![image](https://user-images.githubusercontent.com/91210001/156938277-abbc8c9d-167d-4d8d-8a38-ae1e08221523.png)
 
-![alt text](https://github.com/leblabac/dain-bramage-final-project/blob/main/Resources/random_forest_regressor.png)
-
-The result showed a 4% error rate, which the team thought acceptable given the data that was collected.  
+The result showed a 3.9% error rate, which the team thought acceptable given the data that was collected.  
 
 ## Visualization
 ### Tableau
@@ -102,20 +100,18 @@ Like the other graphs, this was designed to be interactive by year and team, and
 
 
 
+## Summary and Recommendations
+
+
+
+
 
 
 ## Resources
 
-
 ### Data Sources 
 - [NFL Financial Records 2011-2024](https://www.spotrac.com/)
-- [NFL Player List](https://www.pro-football-reference.com/players/)
-- [NFL Player Stats](https://www.nfl.com/stats/player-stats/)
-- [NFL Game Stats](https://www.pro-football-reference.com)
-- [NFL Arrest Records](https://databases.usatoday.com/nfl-arrests/)
+- [NFL NFL Standings](https://github.com/nflverse/nfldata/blob/master/data/standings.csv)
 
-
-
-
-## References  
-- Refer to the Reference ![README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
+## Additional References  
+- Refer to the Reference [README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
