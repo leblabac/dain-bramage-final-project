@@ -12,35 +12,34 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 - Does the more a team spends increase their chances of winning?
 - Does salary cap allocation across individual team members affect team ability to win?
 
-# Hypotheses  
+# Hypotheses   
 Team Spending and Team Wins  
-- H0: The more a team spends the greater their chances of winning.
-- Ha: There is no relationship between the amount a team spends and their chances of winning
+- H<sub>0</sub>: Amount of money spent by a team has no effect on a teams chances of winning.
+- H<sub>a</sub>: There is a relationship between the amount a team spends and their chances of winning
 
-Salary Cap Allocation and Team Wins
-- H0: The more evenly a team's salary is distributed, the greater their chances of winning.
-- Ha: There is no relationship between salary distribution and the team's chances of winning.
+Salary Cap Distribution and Team Wins
+- H<sub>0</sub>: Salary distribution has no effect on a teams chances of winning.
+- H<sub>a</sub>: There is a relationship between salary distribution and the team's chances of winning.
 
 # Methodology 
 ## Analytical Tools Used 
-Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap
+Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap v5.0
 
 ## Data Analysis and Profiling  
 To familiarize ourselves with the data, Team Dain Bramage performed analysis using Excel, reviewing the source data to understand its structure, content and interrelationships. The various terms associated with NFL football financials was reviewed to ensure full meaning of the data was comprehended.
 
 ## Extract, Transform, Load  
-Beginning with a collection of data that spans 10 years (2011-2021), our data included NFL financials abstracted from www.spotrac.com and NFL game statistics from www.NFL.com.
-Pandas was primarily utilized to combine, clean, and transform the datasets into a single data frame.  Once all the financial data was combined, the data was further explored, and unnecessary columns were eliminated as they were not needed to define our original hypothesis.
+Beginning with a collection of data that spans 11 years (2011-2021), our data included NFL financials abstracted from www.spotrac.com and NFL standings from https://github.com/nflverse/nfldata/blob/master/data/standings.csv. Pandas was primarily utilized to combine, clean, and transform the datasets into a single data frame.  Once all the financial data was combined, the data was further explored, and unnecessary columns were eliminated as they were not needed to define our original hypothesis.
 
 - [Merge_csv.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/merge_csv.ipynb)
 
 - [NFL Financials.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/NFL%20Financials.ipynb)
 
-After managing the financial data, the team game statistics were then read into the Jupyter notebook, where the categories and columns were transformed into a standard format, renamed, combining teams that changed names/locations and dropping unneeded years’ data in order to conform to the same 10-year period as the financial data.  
+After managing the financial data, the team standings were then read into the Jupyter notebook, where the categories and columns were transformed into a standard format, renamed, combining teams that changed names/locations and dropping unneeded years’ data in order to conform to the same 11-year period as the financial data.  
 
 - [NFL_Standings_fixed.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/NFL_Standings_fixed.ipynb)
 
-Once both data sets were cleaned and preprocessed, they were merged using “year” and “team” to arrive at the final working set of data, moving from ________________ rows of data to a data set of 22001 rows and 24 columns.  
+Once both data sets were cleaned and preprocessed, they were merged using “year” and “team” to arrive at the final working data set.
 
 - [Dataset_merge.ipynb](https://github.com/leblabac/dain-bramage-final-project/blob/0a11e27920e2e7253b1c1f6483fcc3639bbf08ff/Notebooks/Dataset_merge.ipynb)
 
@@ -109,13 +108,8 @@ Like the other graphs, this was designed to be interactive by year and team, and
 
 ### Data Sources 
 - [NFL Financial Records 2011-2024](https://www.spotrac.com/)
-- [NFL Player List](https://www.pro-football-reference.com/players/)
-- [NFL Player Stats](https://www.nfl.com/stats/player-stats/)
-- [NFL Game Stats](https://www.pro-football-reference.com)
-- [NFL Arrest Records](https://databases.usatoday.com/nfl-arrests/)
-
-
+- [NFL NFL Standings](https://github.com/nflverse/nfldata/blob/master/data/standings.csv)
 
 
 ## References  
-- Refer to the Reference ![README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
+- Refer to the Reference [README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
