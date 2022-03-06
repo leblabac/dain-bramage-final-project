@@ -9,16 +9,16 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 [Laura Blabac](https://github.com/leblabac/), [Kristina Engle](https://github.com/kristina1727/), [Pam Norman](https://github.com/pnorman411), [Dan Prenevost](https://github.com/dprenevost), [Kari Suchy](https://github.com/karisuchy)
 
 # Question(s)  
-- Does the more a team spends increase their chances of winning?
-- Does salary cap allocation across individual team members affect team ability to win?
+- Does the more a team spends increase their chances of making the playoffs?
+- Does salary cap distribution across individual team members affect team ability to make the playoffs?
 
 # Hypotheses   
 Team Spending and Team Wins  
-- H<sub>0</sub>: Amount of money spent by a team has no effect on a teams chances of winning.
+- H<sub>0</sub>: Amount of money spent by a team has no effect on a teams chances of making the playoffs.
 - H<sub>a</sub>: There is a relationship between the amount a team spends and their chances of winning
 
 Salary Cap Distribution and Team Wins
-- H<sub>0</sub>: Salary distribution has no effect on a teams chances of winning.
+- H<sub>0</sub>: Salary distribution has no effect on a teams chances of making the playoffs.
 - H<sub>a</sub>: There is a relationship between salary distribution and the team's chances of winning.
 
 # Methodology 
