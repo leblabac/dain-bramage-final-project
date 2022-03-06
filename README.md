@@ -15,15 +15,15 @@ Beyond the images of pampered athletes, however, is the time-honored race to **W
 # Hypotheses   
 Team Spending and Team Wins  
 - H<sub>0</sub>: Amount of money spent by a team has no effect on a teams chances of making the playoffs.
-- H<sub>a</sub>: There is a relationship between the amount a team spends and their chances of winning
+- H<sub>a</sub>: There is a relationship between the amount a team spends and their chances making the playoffs.
 
 Salary Cap Distribution and Team Wins
 - H<sub>0</sub>: Salary distribution has no effect on a teams chances of making the playoffs.
-- H<sub>a</sub>: There is a relationship between salary distribution and the team's chances of winning.
+- H<sub>a</sub>: There is a relationship between salary distribution and the team's chances of making the playoffs.
 
 # Methodology 
 ## Analytical Tools Used 
-Python, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap v5.0
+Python 3.7, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap v5.0
 
 ## Data Analysis and Profiling  
 To familiarize ourselves with the data, Team Dain Bramage performed analysis using Excel, reviewing the source data to understand its structure, content and interrelationships. The various terms associated with NFL football financials was reviewed to ensure full meaning of the data was comprehended.
@@ -101,15 +101,18 @@ Like the other graphs, this was designed to be interactive by year and team, and
 
 
 
+## Summary and Recommendations
+
+
+
+
 
 
 ## Resources
-
 
 ### Data Sources 
 - [NFL Financial Records 2011-2024](https://www.spotrac.com/)
 - [NFL NFL Standings](https://github.com/nflverse/nfldata/blob/master/data/standings.csv)
 
-
-## References  
+## Additional References  
 - Refer to the Reference [README](https://github.com/leblabac/dain-bramage-final-project/blob/b8b4545fbfc91000d5f6d398e46fc63742447f34/REFERENCES.md) for required cited references
