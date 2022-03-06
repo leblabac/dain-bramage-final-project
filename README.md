@@ -53,21 +53,20 @@ To discover a model that could predict whether money spent by a team increased t
 - Won_Superbowl
 - Win %  
 
-The data was initially one hot encoded using **get_dummies** to retain as much information as possible by converting all the categorical column data to numerical format, to include them in the ML model.  
+We used one hot encoding with **get_dummies** to retain as much information as possible by converting the categorical column data to numerical format, to include them in the ML model. All categorical data was dropped save for the Player Position, and one hot encoding used in our next process.
 
-![alt text](https://github.com/leblabac/dain-bramage-final-project/blob/main/Resources/get_dummies.png)  
+![image](https://user-images.githubusercontent.com/91210001/156938031-3395c5d9-d0a8-455c-9466-be4f512cd6c0.png) 
 
-After running, it was discovered that this did not provide any advantage and skewed our initial ML models.   
 
-In the end, all categorical data was dropped, and one hot encoding was not used in our next process. Moving on to testing the use of the Random Forest Predictive model, “Playoffs” became the main focus for the model.  Use of this model demonstrated a 57.4% chance of predicting which team(s) would make it to the playoff games – odds only slightly better than flipping a coin.  
+Moving on to testing the use of the Random Forest Predictive model, “Playoffs” became the main focus for the model.  Use of this model demonstrated a 58.8% chance of predicting which team(s) would make it to the playoff games – odds only slightly better than flipping a coin.  
 
-![alt text](https://github.com/leblabac/dain-bramage-final-project/blob/main/Resources/random_forest_classifier.png)
+![image](https://user-images.githubusercontent.com/91210001/156938193-1575793f-924c-44ed-8202-1f18e5f3b894.png)
+
 
 Concluding our ML for the project, we attempted to see if the Win% data could be ratified. The data was validated using Win% in a Random Forest Regressor using mean squared error (MSE).  
+![image](https://user-images.githubusercontent.com/91210001/156938277-abbc8c9d-167d-4d8d-8a38-ae1e08221523.png)
 
-![alt text](https://github.com/leblabac/dain-bramage-final-project/blob/main/Resources/random_forest_regressor.png)
-
-The result showed a 4% error rate, which the team thought acceptable given the data that was collected.  
+The result showed a 3.9% error rate, which the team thought acceptable given the data that was collected.  
 
 ## Visualization
 ### Tableau
