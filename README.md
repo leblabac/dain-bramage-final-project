@@ -98,9 +98,8 @@ Like the other graphs, this was designed to be interactive by year and team, and
 ### Bootstrap 5  
 In order to house the visualizations, Bootstrap version 5 was used to create a simple website into which the visualizations were embedded. Bootstrap is open-source and a template was found that provided basic functionality and was then edited to meet the needs of the visualizations. Two stylesheets exist - one for the home page and a second for the remaining pages.
 
+Website Link
 https://github.com/leblabac/dain-bramage-final-project/blob/main/nfl_analysis_home.html
-
-
 
 
 ## Summary and Recommendations
