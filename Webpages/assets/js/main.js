@@ -291,14 +291,6 @@
     })
 
   /**
-   * Initiate Datatables
-   */
-  const datatables = select('.datatable', true)
-  datatables.forEach(datatable => {
-    new simpleDatatables.DataTable(datatable);
-  })
-
-  /**
    * Autoresize echart charts
    */
   const mainContainer = select('#main');
