@@ -75,7 +75,7 @@ To visualize the data retrieved from our data sources about the spending of the 
 To this end, five (5) visualizations were created:  
 
 #### Win Percent By Year: 
-This display shows the win percent for each team over the past 10 years (2011-2021).  Logos were obtained from www.NFL.com, which were subsequently loaded into the ‘My Tableau Repository Shapes’ folder. After this, the logos were added to the “shapes card” and assigned to the appropriate team, from which point they could be used within the graph. This work allowed the ability to use the logo at the point on the graph that represents the percentage of games won by the team in the given year. To enhance the display, tooltips were applied to highlight the portion of the team salary cap that was received by an individual player. The graph is fully interactive, allowing the user to select individual teams and in addition to look at playoff or Super Bowl wins.
+This display shows the win percent for each team over the past 11 years (2011-2021).  Logos were obtained from www.NFL.com, which were subsequently loaded into the ‘My Tableau Repository Shapes’ folder. After this, the logos were added to the “shapes card” and assigned to the appropriate team, from which point they could be used within the graph. This work allowed the ability to use the logo at the point on the graph that represents the percentage of games won by the team in the given year. To enhance the display, tooltips were applied to highlight the portion of the team salary cap that was received by an individual player. The graph is fully interactive, allowing the user to select individual teams and in addition to look at playoff or Super Bowl wins.
 
 #### Team Capitation Spent vs Win Percent  
 This graph examines the salary cap used by the team in relationship to the percentage of games won by the team for a given year. Salary capitation (or “salary cap”) is the amount that a team is allowed for player salaries for the year, as set by the NFL. For Team Dain Bramage’s analysis, the active players, those players currently on injured reserve (“Injured Reserve Cap”), and those players on the Practice Squad were included in the “Salary Cap” columns. Of note for our analysis, although “dead cap” players’ salaries *also* count against a team’s capitation, since these players were traded or released and their release data was not readily available, the team concluded that when comparing against games for the season, they should be excluded.  
@@ -99,11 +99,8 @@ Like the other graphs, this was designed to be interactive by year and team, and
 In order to house the visualizations, Bootstrap version 5 was used to create a simple website into which the visualizations were embedded. Bootstrap is open-source and a template was found that provided basic functionality and was then edited to meet the needs of the visualizations. Two stylesheets exist - one for the home page and a second for the remaining pages.
 
 
+
 ## Summary and Recommendations
-
-
-
-
 
 
 ## Resources
