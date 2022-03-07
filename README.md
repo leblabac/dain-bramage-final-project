@@ -23,7 +23,7 @@ Salary Cap Distribution and Team Wins
 
 # Methodology 
 ## Analytical Tools Used 
-Python 3.7, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap v5.0
+Python 3.7, Pandas, Jupyter Notebook, scikit-learn, Tableau Public, Bootstrap v5.1.3
 
 ## Data Analysis and Profiling  
 To familiarize ourselves with the data, Team Dain Bramage performed analysis using Excel, reviewing the source data to understand its structure, content and interrelationships. The various terms associated with NFL football financials was reviewed to ensure full meaning of the data was comprehended.
@@ -96,6 +96,9 @@ To observe the variation of salary distribution based on a traditional bell curv
 Like the other graphs, this was designed to be interactive by year and team, and includes tooltips that show the player’s name, position, capitation distribution and the percent of deviation away from standard.
 
 ### Bootstrap 5  
+In order to house the visualizations, Bootstrap version 5 was used to create a simple website into which the visualizations were embedded. Bootstrap is open-source and a template was found that provided basic functionality and was then edited to meet the needs of the visualizations. Two stylesheets exist - one for the home page and a second for the remaining pages.
+
+
 
 
 
