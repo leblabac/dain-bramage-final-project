@@ -118,3 +118,4 @@ In order to house the visualizations, Bootstrap version 5 was used to create a s
 
 ## Additional References  
 - Untitled illustration of NFL logo on money background. NFL Salary Caps. Retrieved on February 13, 2022 from https://fantasydata.com/nfl-salary-cap-update-2022
+- NFL Team Logos for AFC and NFC. Teams. Retrieved on February 20, 2022 from https://www.nfl.com/teams/
