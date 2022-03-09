@@ -6,7 +6,7 @@ In competitive sports, there is a time-honored race to **WIN** - and (owners not
 # Dain Bramage Project Team
 [Laura Blabac](https://github.com/leblabac/), [Kristina Engle](https://github.com/kristina1727/), [Pam Norman](https://github.com/pnorman411), [Dan Prenevost](https://github.com/dprenevost), [Kari Suchy](https://github.com/karisuchy)
 
-# Question(s)  
+# Questions  
 - Does the more a team spends increase their chances of making the playoffs?
 - Does salary cap distribution across individual team members affect team ability to make the playoffs?
 
@@ -109,11 +109,7 @@ In order to house the visualizations, Bootstrap version 5 was used to create a s
 [NFL Salary Cap Analysis](Webpages/nfl-deep-dive-home.html)
 
 ## Summary and Recommendations
-In summmary, 
-
-Potiential future analysis could include determinint the skew score for each team's players for each year, and comparing those scores to the win % using a scatter plot. If there is a structure to the scatter plot, further testing could be done using linear regression. If there is no structure to the scatter plot, it would indicate that the salary cap allocation across individual team members does not affect the team’s ability to win.
-
-
+In summmary, Team Dain Bramage completed an analysis to see if money spent increased a teams odds of winning, defined as making it to the playoffs. The Random Forest Predictive model demonstrated a 58.8% chance of predicting which team(s) would make it to the playoff games, thereby validating our null hypothesis for Team Spending and Team Wins. To examine salary cap distribution and team wins, several visual graphs were created to begin analysis of the relationship between team wins and salary cap distribution, which allows for end users to begin analyzing this data on their own. Potiential future analysis could include determining the skew score for each teams' players for each year, and comparing those scores to the win % using a scatter plot. If there is a structure to the scatter plot, further evaluation could be done using linear regression. If there is no structure to the scatter plot, it would indicate that the salary cap allocation across individual team members does not affect the team’s ability to win.
 
 ## Resources
 
