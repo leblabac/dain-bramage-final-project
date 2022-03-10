@@ -1,7 +1,7 @@
 ![NFL-Salary-Cap](https://user-images.githubusercontent.com/87709841/153775860-75842691-11e6-4076-999e-c8e74142175d.png)
 
 # Topic: 
-In competitive sports, there is a time-honored race to **WIN** - and (owners notwithstanding) many people have a team they are emotionally and given the legalized betting, financially invested in the outcomes.  When looking at "American Football" - a $15 billion dollar industry - money speaks loudly. But does deep pockets ensure a winning season? Team Dain Bramage began to wonder about the relationship between how much money a franchise spends per season and what effect if any it had on how much they win.
+In competitive sports, there is a time-honored race to **WIN** - and (owners notwithstanding) many people have a team they are emotionally and given legalized betting,  they are also are financially invested in the outcomes.  When looking at "American Football" - a $15 billion dollar industry - money speaks loudly. But do deep pockets ensure a winning season? Team Dain Bramage began to wonder about the relationship between how much money a franchise spends per season and what effect if any it has on how much they win.
 
 # Dain Bramage Project Team
 [Laura Blabac](https://github.com/leblabac/), [Kristina Engle](https://github.com/kristina1727/), [Pam Norman](https://github.com/pnorman411), [Dan Prenevost](https://github.com/dprenevost), [Kari Suchy](https://github.com/karisuchy)
