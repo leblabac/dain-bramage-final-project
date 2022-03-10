@@ -432,7 +432,7 @@ h1, h2, h3, h4, h5, h6 {
 .dashboard .filter .icon {
   color: #aab7cf;
   padding-right: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 400px;
   transition: 0.3s;
   font-size: 16px;
 }
